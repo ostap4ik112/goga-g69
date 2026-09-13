@@ -1,0 +1,45 @@
+<svg viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="deckGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2A2E35"/>
+      <stop offset="100%" stop-color="#1C1F24"/>
+    </linearGradient>
+    <radialGradient id="wheelGrad" cx="35%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#3A4750"/>
+      <stop offset="100%" stop-color="#14161A"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="450" cy="560" rx="330" ry="26" fill="#14161A" opacity="0.08"/>
+
+  <rect x="150" y="470" width="430" height="26" rx="13" fill="url(#deckGrad)"/>
+  <rect x="150" y="470" width="430" height="8" rx="4" fill="#FF7A1A"/>
+
+  <rect x="560" y="120" width="26" height="360" rx="13" fill="url(#deckGrad)"/>
+  <rect x="500" y="120" width="150" height="30" rx="15" fill="#1C1F24"/>
+  <rect x="500" y="120" width="150" height="8" rx="4" fill="#FF7A1A"/>
+
+  <rect x="470" y="150" width="14" height="330" rx="7" fill="#2A2E35"/>
+  <rect x="640" y="150" width="14" height="330" rx="7" fill="#2A2E35"/>
+
+  <rect x="380" y="360" width="120" height="90" rx="14" fill="#20242A"/>
+  <rect x="392" y="372" width="96" height="14" rx="7" fill="#3A4750"/>
+  <rect x="392" y="394" width="96" height="14" rx="7" fill="#3A4750"/>
+  <rect x="392" y="416" width="60" height="14" rx="7" fill="#FF7A1A"/>
+
+  <circle cx="215" cy="500" r="62" fill="url(#wheelGrad)"/>
+  <circle cx="215" cy="500" r="62" fill="none" stroke="#0B0C0E" stroke-width="6"/>
+  <circle cx="215" cy="500" r="22" fill="#0B0C0E"/>
+  <circle cx="215" cy="500" r="8" fill="#F6F5F2"/>
+
+  <circle cx="590" cy="500" r="62" fill="url(#wheelGrad)"/>
+  <circle cx="590" cy="500" r="62" fill="none" stroke="#0B0C0E" stroke-width="6"/>
+  <circle cx="590" cy="500" r="22" fill="#0B0C0E"/>
+  <circle cx="590" cy="500" r="8" fill="#F6F5F2"/>
+
+  <rect x="150" y="460" width="70" height="16" rx="8" fill="#0B0C0E"/>
+  <rect x="540" y="460" width="70" height="16" rx="8" fill="#0B0C0E"/>
+
+  <rect x="150" y="440" width="24" height="30" rx="4" fill="#2A2E35"/>
+  <circle cx="162" cy="435" r="7" fill="#FF3B30"/>
+</svg>
